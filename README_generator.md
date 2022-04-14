@@ -19,7 +19,7 @@
 
   * Problems Solved  
 
-    It walks developers through the process of making their readme files.  
+    It walks developers through the otherwise mundane process of making their readme files.  
 
   * Things Learned  
 
@@ -57,12 +57,19 @@
 
   
 
+  ## Usage  
+
+  
+
+  Simply run the above command line input and respond to each prompt to the best of your ability.  
+
+  
+
   ## License  
 
   
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
- [MIT](https://opensource.org/licenses/MIT)  
+  [MIT](https://opensource.org/licenses/MIT)  
 
   
 
@@ -70,7 +77,7 @@
 
   
 
-  Jung, Georgia Tech, my wife  
+  Jung, Georgia Tech, 2U Education, GitHub, and my wife.  
 
   
 
@@ -78,7 +85,7 @@
 
   
 
-  Answer the prompt questions applicable to your latest project and check the working directory for the generated markdown file.  
+  This application can be tested by just trying different keystrokes in response to each prompt to get a feel for how the application will format the data in the output markdown file.  
 
   
 
