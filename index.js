@@ -41,7 +41,20 @@ const questions = [
         message: 'How (if applicable) do you install this application?'
     },
     {
-        
+        type: 'input',
+        name: 'tests',
+        message: 'How should users test this application?'
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Anybody you\'d like to thank?'
+    },
+    {
+        type: 'list',
+        name: 'lisence',
+        message: 'Which lisence do you want for this project?',
+        choices: ['MIT', 'GNU GPLv3', 'none']
     }
 ];
 
