@@ -42,6 +42,16 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'installDetails',
+        message: 'Put command line input for install here (if applicable)'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'How should user use this application?'
+    },
+    {
+        type: 'input',
         name: 'tests',
         message: 'How should users test this application?'
     },
@@ -60,7 +70,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
+    fs.appendFile(`${fileName}.md`, data, () => console.log('README generated!'))
 }
 
 // TODO: Create a function to initialize app
@@ -68,8 +78,7 @@ function init() {
     inquirer.prompt([...questions])
     .then((res) => {
         //console.log(res)
-        console.log(generateMarkdown(res));
-
+        writeToFile(res.projectName, generateMarkdown(res));
     })
 };
 
