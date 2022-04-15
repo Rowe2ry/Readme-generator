@@ -65,6 +65,10 @@
 
   You can also watch this [Video Walkthrough](https://drive.google.com/file/d/145gF7vAXcNt8LeeHQOJCevKTdwZ2MVxV/view)
 
+  ![ScreenshotOne](./assets/terminal_prompt.png)
+  ![ScreenshotTwo](./assets/rawData-MD.png)
+  ![ScreenshotThree](./assets/formatted-MD.png)
+
   ## License  
 
   
