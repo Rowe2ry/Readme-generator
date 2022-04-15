@@ -61,9 +61,9 @@
 
   
 
-  Simply run the above command line input and respond to each prompt to the best of your ability.  
+  Simply run the above command line input and respond to each prompt to the best of your ability.
 
-  
+  You can also watch this [Video Walkthrough](https://drive.google.com/file/d/145gF7vAXcNt8LeeHQOJCevKTdwZ2MVxV/view)
 
   ## License  
 
